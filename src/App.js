@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Heading from './Header';
+import Btn from './Btn';
 
 function App() {
   return (
     <div className="App">
       <Heading />
       <header className="App-header">
+        <Btn />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
